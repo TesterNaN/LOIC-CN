@@ -1,0 +1,6 @@
+C:\Users\Administrator\Downloads\LOIC-master\src\bin\Release\IRC.dll
+C:\Users\Administrator\Downloads\LOIC-master\src\bin\Release\IRC.pdb
+C:\Users\Administrator\Downloads\LOIC-master\src\IRC\obj\Release\IRC.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\LOIC-master\src\IRC\obj\Release\IRC.csproj.CopyComplete
+C:\Users\Administrator\Downloads\LOIC-master\src\IRC\obj\Release\IRC.dll
+C:\Users\Administrator\Downloads\LOIC-master\src\IRC\obj\Release\IRC.pdb

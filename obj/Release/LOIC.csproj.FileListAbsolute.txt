@@ -1,0 +1,15 @@
+C:\Users\Administrator\Downloads\LOIC-master\src\bin\Release\LOIC.exe.config
+C:\Users\Administrator\Downloads\LOIC-master\src\bin\Release\LOIC.exe
+C:\Users\Administrator\Downloads\LOIC-master\src\bin\Release\LOIC.pdb
+C:\Users\Administrator\Downloads\LOIC-master\src\obj\Release\LOIC.csprojAssemblyReference.cache
+C:\Users\Administrator\Downloads\LOIC-master\src\obj\Release\LOIC.frmEZGrab.resources
+C:\Users\Administrator\Downloads\LOIC-master\src\obj\Release\LOIC.frmMain.resources
+C:\Users\Administrator\Downloads\LOIC-master\src\obj\Release\LOIC.frmEULA.resources
+C:\Users\Administrator\Downloads\LOIC-master\src\obj\Release\LOIC.frmWtf.resources
+C:\Users\Administrator\Downloads\LOIC-master\src\obj\Release\LOIC.Properties.Resources.resources
+C:\Users\Administrator\Downloads\LOIC-master\src\obj\Release\LOIC.csproj.GenerateResource.cache
+C:\Users\Administrator\Downloads\LOIC-master\src\obj\Release\LOIC.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\LOIC-master\src\obj\Release\LOIC.csproj.CopyComplete
+C:\Users\Administrator\Downloads\LOIC-master\src\obj\Release\LOIC.exe
+C:\Users\Administrator\Downloads\LOIC-master\src\obj\Release\LOIC.pdb
+C:\Users\Administrator\Downloads\LOIC-master\src\bin\Release\IRC.pdb
