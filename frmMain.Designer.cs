@@ -155,7 +155,7 @@ namespace LOIC
             this.txtTargetIP.Name = "txtTargetIP";
             this.txtTargetIP.Size = new System.Drawing.Size(365, 20);
             this.txtTargetIP.TabIndex = 3;
-            this.TTip.SetToolTip(this.txtTargetIP, "If you know your target\'s IP, enter the IP here and click \"Lock on\"");
+            this.TTip.SetToolTip(this.txtTargetIP, "如果您知道目标的 IP，请在此处输入 IP，然后单击“锁定”");
             // 
             // label1
             // 
@@ -187,7 +187,7 @@ namespace LOIC
             this.txtTargetURL.Name = "txtTargetURL";
             this.txtTargetURL.Size = new System.Drawing.Size(365, 20);
             this.txtTargetURL.TabIndex = 1;
-            this.TTip.SetToolTip(this.txtTargetURL, "If you don\'t know your target\'s IP, enter a URL here and click \"Lock on\"");
+            this.TTip.SetToolTip(this.txtTargetURL, "如果您不知道目标的 IP，请在此处输入 URL，然后单击“锁定”");
             // 
             // groupBox2
             // 
@@ -213,7 +213,7 @@ namespace LOIC
             this.txtTarget.TabStop = false;
             this.txtTarget.Text = "N O N E !";
             this.txtTarget.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.TTip.SetToolTip(this.txtTarget, "The currently selected target");
+            this.TTip.SetToolTip(this.txtTarget, "当前选定的目标");
             this.txtTarget.Enter += new System.EventHandler(this.txtTarget_Enter);
             // 
             // groupBox3
@@ -257,7 +257,7 @@ namespace LOIC
             this.chkAllowGzip.Size = new System.Drawing.Size(71, 18);
             this.chkAllowGzip.TabIndex = 33;
             this.chkAllowGzip.Text = "使用gZip";
-            this.TTip.SetToolTip(this.chkAllowGzip, "If checked, enables Gzip support for HTTP methods");
+            this.TTip.SetToolTip(this.chkAllowGzip, "如果选中，则启用对 HTTP 方法的 Gzip 支持");
             this.chkAllowGzip.UseVisualStyleBackColor = true;
             // 
             // chkUseGet
@@ -269,7 +269,7 @@ namespace LOIC
             this.chkUseGet.Size = new System.Drawing.Size(70, 18);
             this.chkUseGet.TabIndex = 32;
             this.chkUseGet.Text = "使用GET";
-            this.TTip.SetToolTip(this.chkUseGet, "If checked it uses the GET method instead of POST.");
+            this.TTip.SetToolTip(this.chkUseGet, "如果选中，它将使用 GET 方法而不是 POST。");
             this.chkUseGet.UseVisualStyleBackColor = true;
             // 
             // label3
@@ -294,7 +294,7 @@ namespace LOIC
             this.txtSLSpT.TabIndex = 30;
             this.txtSLSpT.Text = "25";
             this.txtSLSpT.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.TTip.SetToolTip(this.txtSLSpT, "Amount of sockets per thread");
+            this.TTip.SetToolTip(this.txtSLSpT, "每个线程的套接字数");
             // 
             // chkMsgRandom
             // 
@@ -303,7 +303,7 @@ namespace LOIC
             this.chkMsgRandom.Size = new System.Drawing.Size(212, 18);
             this.chkMsgRandom.TabIndex = 29;
             this.chkMsgRandom.Text = "将随机字符附加到消息";
-            this.TTip.SetToolTip(this.chkMsgRandom, "Enable appending random chars to the message every request");
+            this.TTip.SetToolTip(this.chkMsgRandom, "启用在每个请求中将随机字符附加到消息");
             // 
             // chkRandom
             // 
@@ -314,7 +314,7 @@ namespace LOIC
             this.chkRandom.Size = new System.Drawing.Size(142, 18);
             this.chkRandom.TabIndex = 28;
             this.chkRandom.Text = "将随机字符附加到URL";
-            this.TTip.SetToolTip(this.chkRandom, "Enable appending random chars to the subsite every request");
+            this.TTip.SetToolTip(this.chkRandom, "启用在每个请求时将随机字符追加到子网站");
             this.chkRandom.UseVisualStyleBackColor = true;
             // 
             // lbSepOptions
@@ -386,7 +386,7 @@ namespace LOIC
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(390, 15);
             this.label20.TabIndex = 18;
-            this.label20.Text = "<= 快速          速度          慢速 =>";
+            this.label20.Text = "                <= 快速          速度          慢速 =>";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // chkWaitReply
@@ -397,7 +397,7 @@ namespace LOIC
             this.chkWaitReply.Size = new System.Drawing.Size(74, 18);
             this.chkWaitReply.TabIndex = 7;
             this.chkWaitReply.Text = "等待回复";
-            this.TTip.SetToolTip(this.chkWaitReply, "Don\'t disconnect before the server\'s started to answer");
+            this.TTip.SetToolTip(this.chkWaitReply, "在服务器开始应答之前不要断开连接");
             this.chkWaitReply.UseVisualStyleBackColor = true;
             // 
             // txtData
@@ -412,7 +412,7 @@ namespace LOIC
             this.txtData.TabIndex = 3;
             this.txtData.Text = "U dun goofed";
             this.txtData.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.TTip.SetToolTip(this.txtData, "The data to send in TCP/UDP mode");
+            this.TTip.SetToolTip(this.txtData, "要在 TCP/UDP 模式下发送的数据");
             // 
             // txtSubsite
             // 
@@ -426,7 +426,7 @@ namespace LOIC
             this.txtSubsite.TabIndex = 2;
             this.txtSubsite.Text = "/";
             this.txtSubsite.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.TTip.SetToolTip(this.txtSubsite, "What subsite to target (when using HTTP as type)");
+            this.TTip.SetToolTip(this.txtSubsite, "要定位的子网站(使用 HTTP 作为类型时)");
             // 
             // txtTimeout
             // 
@@ -440,7 +440,7 @@ namespace LOIC
             this.txtTimeout.TabIndex = 1;
             this.txtTimeout.Text = "30";
             this.txtTimeout.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.TTip.SetToolTip(this.txtTimeout, "Max time in seconds to wait for a response.");
+            this.TTip.SetToolTip(this.txtTimeout, "等待响应的最长时间（以秒为单位）。");
             // 
             // txtThreads
             // 
@@ -454,7 +454,7 @@ namespace LOIC
             this.txtThreads.TabIndex = 6;
             this.txtThreads.Text = "10";
             this.txtThreads.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.TTip.SetToolTip(this.txtThreads, "How many users LOIC should emulate");
+            this.TTip.SetToolTip(this.txtThreads, "LOIC 应该模拟多少用户");
             this.txtThreads.Leave += new System.EventHandler(this.txtThreads_Leave);
             // 
             // cbMethod
@@ -476,7 +476,7 @@ namespace LOIC
             this.cbMethod.Size = new System.Drawing.Size(75, 22);
             this.cbMethod.TabIndex = 5;
             this.cbMethod.Text = "TCP";
-            this.TTip.SetToolTip(this.cbMethod, "What type of attack to launch");
+            this.TTip.SetToolTip(this.cbMethod, "发起什么类型的攻击");
             this.cbMethod.SelectedIndexChanged += new System.EventHandler(this.cbMethod_SelectedIndexChanged);
             // 
             // txtPort
@@ -491,7 +491,7 @@ namespace LOIC
             this.txtPort.TabIndex = 4;
             this.txtPort.Text = "80";
             this.txtPort.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.TTip.SetToolTip(this.txtPort, "What port to attack (regular websites use 80)");
+            this.TTip.SetToolTip(this.txtPort, "攻击什么端口(常规网站使用80)");
             // 
             // tbSpeed
             // 
@@ -500,7 +500,7 @@ namespace LOIC
             this.tbSpeed.Name = "tbSpeed";
             this.tbSpeed.Size = new System.Drawing.Size(338, 45);
             this.tbSpeed.TabIndex = 8;
-            this.TTip.SetToolTip(this.tbSpeed, "Use this to increase or reduce attack speed");
+            this.TTip.SetToolTip(this.tbSpeed, "使用它来提高或降低攻击速度");
             this.tbSpeed.ValueChanged += new System.EventHandler(this.tbSpeed_ValueChanged);
             // 
             // groupBox4
@@ -524,7 +524,7 @@ namespace LOIC
             this.cmdAttack.Size = new System.Drawing.Size(246, 50);
             this.cmdAttack.TabIndex = 1;
             this.cmdAttack.Text = "开始攻击";
-            this.TTip.SetToolTip(this.cmdAttack, "I sincerely hope you can guess what this button does.");
+            this.TTip.SetToolTip(this.cmdAttack, "我希望你能认识到按下这个按钮会发生什么。");
             this.cmdAttack.UseVisualStyleBackColor = false;
             this.cmdAttack.Click += new System.EventHandler(this.cmdAttack_Click);
             // 
@@ -570,8 +570,7 @@ namespace LOIC
             this.lbFailed.Size = new System.Drawing.Size(101, 24);
             this.lbFailed.TabIndex = 24;
             this.lbFailed.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.TTip.SetToolTip(this.lbFailed, "How many times (in total) the webserver didn\'t respond. High number = server down" +
-        ".");
+            this.TTip.SetToolTip(this.lbFailed, "网络服务器没有响应的次数。数字极大 = 服务器崩溃.");
             // 
             // lbRequested
             // 
@@ -580,7 +579,7 @@ namespace LOIC
             this.lbRequested.Size = new System.Drawing.Size(101, 24);
             this.lbRequested.TabIndex = 23;
             this.lbRequested.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.TTip.SetToolTip(this.lbRequested, "How many times (in total) a download has been requested");
+            this.TTip.SetToolTip(this.lbRequested, "请求下载的次数");
             // 
             // label22
             // 
@@ -607,7 +606,7 @@ namespace LOIC
             this.lbDownloaded.Size = new System.Drawing.Size(101, 24);
             this.lbDownloaded.TabIndex = 20;
             this.lbDownloaded.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.TTip.SetToolTip(this.lbDownloaded, "How many times (in total) that a download has been initiated");
+            this.TTip.SetToolTip(this.lbDownloaded, "启动下载的次数（总计）");
             // 
             // lbDownloading
             // 
@@ -617,7 +616,7 @@ namespace LOIC
             this.lbDownloading.Size = new System.Drawing.Size(101, 24);
             this.lbDownloading.TabIndex = 19;
             this.lbDownloading.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.TTip.SetToolTip(this.lbDownloading, "How many threads that are downloading information from the server");
+            this.TTip.SetToolTip(this.lbDownloading, "从服务器下载信息的线程数");
             // 
             // lbRequesting
             // 
@@ -626,7 +625,7 @@ namespace LOIC
             this.lbRequesting.Size = new System.Drawing.Size(101, 24);
             this.lbRequesting.TabIndex = 18;
             this.lbRequesting.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.TTip.SetToolTip(this.lbRequesting, "How many threads that are requesting information from the server");
+            this.TTip.SetToolTip(this.lbRequesting, "从服务器请求信息的线程数");
             // 
             // lbConnecting
             // 
@@ -635,7 +634,7 @@ namespace LOIC
             this.lbConnecting.Size = new System.Drawing.Size(101, 24);
             this.lbConnecting.TabIndex = 17;
             this.lbConnecting.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.TTip.SetToolTip(this.lbConnecting, "How many threads that are trying to connect");
+            this.TTip.SetToolTip(this.lbConnecting, "尝试连接的线程数");
             // 
             // lbIdle
             // 
@@ -644,7 +643,7 @@ namespace LOIC
             this.lbIdle.Size = new System.Drawing.Size(101, 24);
             this.lbIdle.TabIndex = 16;
             this.lbIdle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.TTip.SetToolTip(this.lbIdle, "How many threads that are without work. Should be 0");
+            this.TTip.SetToolTip(this.lbIdle, "有多少线程没有工作。应为 0");
             // 
             // label12
             // 
@@ -696,10 +695,10 @@ namespace LOIC
             this.label24.AutoSize = true;
             this.label24.Location = new System.Drawing.Point(22, 452);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(165, 14);
+            this.label24.Size = new System.Drawing.Size(156, 14);
             this.label24.TabIndex = 14;
-            this.label24.Text = "github.com/NewEraCracker/LOIC";
-            this.TTip.SetToolTip(this.label24, "Go to official page");
+            this.label24.Text = "github.com/TesterNaN/LOIC-CN";
+            this.TTip.SetToolTip(this.label24, "前往官网");
             this.label24.Click += new System.EventHandler(this.label24_Click);
             // 
             // textOLServer
@@ -711,7 +710,7 @@ namespace LOIC
             this.textOLServer.Name = "textOLServer";
             this.textOLServer.Size = new System.Drawing.Size(107, 20);
             this.textOLServer.TabIndex = 25;
-            this.TTip.SetToolTip(this.textOLServer, "URL of the Overlord-Server (http://overlord.com:8100/hidden/go.lcs");
+            this.TTip.SetToolTip(this.textOLServer, "Overlord服务器网址 (http://overlord.com:8100/hidden/go.lcs)");
             // 
             // textOLTime
             // 
@@ -724,7 +723,7 @@ namespace LOIC
             this.textOLTime.Size = new System.Drawing.Size(27, 20);
             this.textOLTime.TabIndex = 28;
             this.textOLTime.Text = "30";
-            this.TTip.SetToolTip(this.textOLTime, "the time between rechecks of the OverLord CC (in minutes)");
+            this.TTip.SetToolTip(this.textOLTime, "Overlord CC重新检查的时间间隔（以分钟为单位）");
             // 
             // chkbOLUp
             // 
@@ -736,8 +735,7 @@ namespace LOIC
             this.chkbOLUp.Size = new System.Drawing.Size(56, 18);
             this.chkbOLUp.TabIndex = 30;
             this.chkbOLUp.Text = "上线?";
-            this.TTip.SetToolTip(this.chkbOLUp, "Search Up or Down in the Page. Use Up for Pages like Twitter or \"dedicated\" Web-P" +
-        "ages and Down for Boards / Blogs.");
+            this.TTip.SetToolTip(this.chkbOLUp, "在页面中向上或向下搜索。向上用于Twitter或“专用”网页等页面，向下用于板/博客。");
             this.chkbOLUp.UseVisualStyleBackColor = true;
             // 
             // enableHive
@@ -748,7 +746,7 @@ namespace LOIC
             this.enableHive.Size = new System.Drawing.Size(132, 18);
             this.enableHive.TabIndex = 16;
             this.enableHive.Text = "IRC模式（HiveMind）";
-            this.TTip.SetToolTip(this.enableHive, "Fill the IRC options if you wish to use this mode");
+            this.TTip.SetToolTip(this.enableHive, "如果您想使用此模式，请填写 IRC 选项");
             this.enableHive.UseVisualStyleBackColor = true;
             this.enableHive.CheckedChanged += new System.EventHandler(this.enableHive_CheckedChanged);
             // 
@@ -851,9 +849,9 @@ namespace LOIC
             this.enableOverlord.AutoSize = true;
             this.enableOverlord.Location = new System.Drawing.Point(377, 39);
             this.enableOverlord.Name = "enableOverlord";
-            this.enableOverlord.Size = new System.Drawing.Size(79, 18);
+            this.enableOverlord.Size = new System.Drawing.Size(100, 18);
             this.enableOverlord.TabIndex = 24;
-            this.enableOverlord.Text = "DAMN领主";
+            this.enableOverlord.Text = "DAMN Overlord";
             this.enableOverlord.UseVisualStyleBackColor = true;
             this.enableOverlord.CheckedChanged += new System.EventHandler(this.enableOverlord_CheckedChanged);
             // 

@@ -131,7 +131,7 @@ namespace LOIC
             this.groupBox2.Size = new System.Drawing.Size(411, 142);
             this.groupBox2.TabIndex = 28;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "领主";
+            this.groupBox2.Text = "Overlord";
             // 
             // txtOverlord
             // 
@@ -192,7 +192,7 @@ namespace LOIC
             this.ForeColor = System.Drawing.Color.LightBlue;
             this.Icon = global::LOIC.Properties.Resources.LOIC_ICO;
             this.Name = "frmEZGrab";
-            this.Text = "HiveMind/领主eZGrab";
+            this.Text = "HiveMind/Overlord eZGrab";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmEZGrab_FormClosed);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

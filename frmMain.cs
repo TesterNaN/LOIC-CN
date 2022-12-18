@@ -244,8 +244,8 @@ namespace LOIC
 				return;
 			}
 
-			new frmWtf().Show();
-			MessageBox.Show(message, "什么鬼.");
+			//new frmWtf().Show();
+			MessageBox.Show(message, "王德发.");
 		}
 
 		/// <summary>
@@ -259,7 +259,7 @@ namespace LOIC
 				string tIP = txtTargetIP.Text.Trim().ToLowerInvariant();
 				if(tIP.Length == 0)
 				{
-					Wtf ("I think you forgot the IP.", silent);
+					Wtf ("我认为你忘了填写IP.", silent);
 					return;
 				}
 				try
@@ -294,7 +294,7 @@ namespace LOIC
 				string tURL = txtTargetURL.Text.Trim().ToLowerInvariant();
 				if(tURL.Length == 0)
 				{
-					Wtf ("A URL is fine too...", silent);
+					Wtf ("给个网址也行啊...", silent);
 					return;
 				}
 				if(!tURL.Contains("://"))
@@ -309,12 +309,12 @@ namespace LOIC
 				}
 				catch(UriFormatException)
 				{
-					Wtf ("I don't think a URL is supposed to be written like THAT.", silent);
+					Wtf ("我认为网址好像不是那样写的.", silent);
 					return;
 				}
 				catch(SocketException)
 				{
-					Wtf ("The URL you entered does not resolve to an IP!", silent);
+					Wtf ("您输入的 URL 无法解析为 IP!", silent);
 					return;
 				}
 			}
@@ -345,7 +345,7 @@ namespace LOIC
 				}
 				if (disableHive.Checked && enabled)
 				{
-					Wtf ("Did you fill IRC options correctly?");
+					Wtf ("您是否正确填写了 IRC 选项?");
 					return;
 				}
 
@@ -403,7 +403,7 @@ namespace LOIC
 					// Analysis disable once EmptyGeneralCatchClause
 					catch
 					{ }
-					SetStatus("Disconnected.");
+					SetStatus("未连接.");
 				}
 			}
 			catch
@@ -802,7 +802,7 @@ namespace LOIC
 		private void frmMain_Load(object sender, EventArgs e)
 		{
 			string unlocked = bKonami ? " | *UNLEASHED*" : "";
-			this.Text = String.Format("{0} | When harpoons, air strikes and nukes fail | v. {1}{2}", Application.ProductName, Application.ProductVersion, unlocked);
+			this.Text = String.Format("{0} | 当鱼叉导弹，空袭甚至核武器都失败的时候 | v. {1}{2}", Application.ProductName, Application.ProductVersion, unlocked);
 		}
 
 		/// <summary>
@@ -1065,7 +1065,7 @@ namespace LOIC
 		/// <param name="e">EventArgs.</param>
 		private void label24_Click(object sender, EventArgs e)
 		{
-			Process.Start("https://github.com/NewEraCracker/LOIC");
+			Process.Start("https://github.com/TesterNaN/LOIC-CN");
 		}
 
 		/// <summary>
@@ -1389,14 +1389,14 @@ namespace LOIC
 					labelOLStatus.Text = "已连接...";
 					if (getOLUrlCmd(textOLServer.Text))
 					{
-						labelOLStatus.Text = "Done! Waiting for next Update..";
+						labelOLStatus.Text = "完事! 静等更新..";
 					}
 					else
 					{
 						try
 						{
 							string sResp = client.DownloadString(textOLServer.Text);
-							labelOLStatus.Text = "processing...";
+							labelOLStatus.Text = "处理中...";
 							string rxpa = "(\\[LOIC\\]\\s*(<[^>]*>)*\\s*(@?(\\S+)\\s*[:]\\s*([^<@\\n\\r\\t]+)\\s*@?\\s*(<[^>]*>[^<@\\n\\r\\t]*)*\\s*)+\\s*(<[^>]*>)*\\s*\\[/LOIC\\]|class=\"LO (tar|bu)\\s*(r)?\" href=\"([^\"]*)\"|LOIC: http://(\\S+))+";
 							MatchCollection matches = Regex.Matches(sResp, rxpa, RegexOptions.Compiled | RegexOptions.IgnoreCase | RegexOptions.ECMAScript);
 							//string s = var_dump(matches, 0);
@@ -1446,18 +1446,18 @@ namespace LOIC
 								else
 									i--;
 							}
-							labelOLStatus.Text = "Done! Waiting for next Update..";
+							labelOLStatus.Text = "完事! 静等更新..";
 						}
 						catch
 						{ // oops .. the entered URI seems to be the command
-							labelOLStatus.Text = "WTF? The URI is crap! get a working one!";
+							labelOLStatus.Text = "王德发? 这个网址废了! 给个可以用的!";
 							throw;
 						}
 					}
 				}
 				catch
 				{
-					labelOLStatus.Text = "ALL Your OverLords are DOWN!"; //OMG ... Panic.Start(); .. btw: we switch to manual control and keep lazoring :D
+					labelOLStatus.Text = "你所有的Overlord都倒下了！"; //OMG ... Panic.Start(); .. btw: we switch to manual control and keep lazoring :D
 					int ni = aDownOLSites.IndexOf(labelOLStatus.Text);
 					if (ni > 0)
 						aDownOLSites.RemoveAt(ni);
@@ -1501,8 +1501,8 @@ namespace LOIC
 				if (textOLServer.Text == "")
 				{
 					disableHive.Checked = true;
-					new frmWtf().Show();
-					MessageBox.Show("Did you filled OverLord URL correctly?", "What the shit.");
+					//new frmWtf().Show();
+					MessageBox.Show("你是否正确填写了Overlord网址?", "什么鬼.");
 					return;
 				}
 				DoHive(false);
